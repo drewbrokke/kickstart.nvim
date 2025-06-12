@@ -166,6 +166,11 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- BEGIN Drew custom
+vim.o.fixeol = false
+vim.o.relativenumber = true
+-- END Drew custom
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
